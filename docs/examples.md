@@ -49,7 +49,7 @@ bot.whisper(target_username, "Hey, I am a bot.", style=0)
 ### 3. Simple Auto-Reply Bot
 Add this inside your main while loop to make the bot respond to chat.
 
-```
+```python
 import time
 
 while bot.connected:
