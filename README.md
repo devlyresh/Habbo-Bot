@@ -66,6 +66,10 @@ git clone https://github.com/devlyresh/Habbo-Bot.git
 cd Habbo-Bot
 pip install pycryptodome requests PySocks
 ```
+
+Inside the folder you'll see example.py file. Check that.
+
+
 ### 2. Configuration (Cookies)
 To log in, the bot needs your session cookies.
 1.  Login to Habbo on your browser.
@@ -74,7 +78,9 @@ To log in, the bot needs your session cookies.
 4.  Click the request named `url`.
 5.  Copy `session.id` and `browser_token` from **Request Headers**.
 
-Open `main.py` and paste them:
+
+
+Open `example.py` and paste them:
 ```python
 MY_COOKIES = [
     {"name": "session.id", "value": "YOUR_SESSION_ID"},
