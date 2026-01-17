@@ -10,8 +10,8 @@ API_URL = "https://www.habbo.com/api/client/clientnative/url"
 # NOTE: Origin and Referer are set to .com.tr here. Change this if targeting .com, .es, .br, etc.
 BASE_HEADERS = {
     'accept': 'application/json, text/plain, */*',
-    'origin': 'https://www.habbo.com.tr',
-    'referer': 'https://www.habbo.com.tr/',
+    'origin': 'https://www.habbo.com',
+    'referer': 'https://www.habbo.com/',
     'sec-ch-ua': '"Not_A Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"',
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Windows"',
@@ -138,4 +138,5 @@ def get_sso_ticket(cookie_input: list | dict, proxy_url: str = None) -> str | No
         return None
     except Exception as err:
         print(f"❌ [SSO] Unexpected Error: {err}")
+
         return None
