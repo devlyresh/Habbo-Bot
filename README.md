@@ -149,7 +149,7 @@ By default, this is set to **US (.com)**. To change to Turkey, Brazil, or Spain:
 
 ## How to get Room ID? 
 
-<img src="getid.png" width="600">
+<img src="getid.png" width="400">
 
 ## 🤝 Contributing & Pull Requests
 
