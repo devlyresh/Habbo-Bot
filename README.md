@@ -91,10 +91,28 @@ MY_COOKIES = [
 ### 3. Run
 
 ```Bash
-python main.py
+python example.py
 ```
 
+If your terminal is like this:
+
+
 ---
+```bash
+[06:18:00] [BOT] Socket connected.
+[06:18:01] [BOT] Waiting for login flow...
+[06:18:01] [BOT] AUTHENTICATION OK!
+[06:18:01] [BOT] ✅ Connected to Habbo Game Server!
+[06:18:01] [BOT] Joining Room ID: 80257391...
+[06:18:01] [BOT] 🏠 Successfully entered the room!
+[06:18:01] [BOT] Walking to (5, 5)...
+[06:18:03] [BOT] Shouting message...
+[06:18:05] [BOT] Dancing...
+[06:18:08] [BOT] Starting Random Walk...
+```
+
+then it means you successfully connected.
+
 
 ## 📂 Project Structure
 
