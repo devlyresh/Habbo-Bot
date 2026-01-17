@@ -147,6 +147,10 @@ By default, this is set to **US (.com)**. To change to Turkey, Brazil, or Spain:
 
 ---
 
+## How to get Room ID? 
+
+<img src="getid.png" width="600">
+
 ## 🤝 Contributing & Pull Requests
 
 The Habbo protocol changes often. If you find a broken packet or add a new feature (like Pet Interaction, Trading, or Group logic), please open a **Pull Request**!
