@@ -15,8 +15,8 @@ import constants as const
 # You must grab these from your browser (F12 -> Network -> Filter: clientnative/url -> Request Headers)
 # You need 'session.id' and 'browser_token'.
 MY_COOKIES = [
-    {"name": "session.id", "value": "s%3AjjXZKiv1VDmmEtdCDwLgOwG_bEgjeL0YlXGnxM3xO7s.4ayFfjar%2Bkpb%2BMX7IwOSD0zLLIcWweARh%2FxiCtAOWsU"},
-    {"name": "browser_token", "value": "s%3ANWgIeGiVPAMj6Ck9w1-fnOQ2Sv67A3hU0hmHU0FW3Yw.nVSxHWkf4EAZx9L6HDkv29D2n2fg0PoQj%2Fr%2FezFVKWM"}
+    {"name": "session.id", "value": "your session id"},
+    {"name": "browser_token", "value": "your browser token"}
 ]
 
 # 2. PROXY SETTINGS (Optional)
@@ -130,4 +130,5 @@ def run_example_bot():
         logger("Disconnected.")
 
 if __name__ == "__main__":
+
     run_example_bot()
