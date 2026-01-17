@@ -177,7 +177,7 @@ class HabboClientGUI:
         self.start_time_ms = int(time.time() * 1000)
         self.is_banned = False
         try:
-            self.log(_s(b'QXR0ZW1wdGluZyBUb3IgY29ubmVjdGlvbiB0byB7fTp7fQ==').format(self.host, self.port))
+            
             
             # Initialize SOCKS socket
             self.sock = socks.socksocket(socket.AF_INET, socket.SOCK_STREAM)
@@ -821,4 +821,5 @@ class HabboClientGUI:
         time.sleep(0.5) 
         
         # 2. Tell server to visually wear it
+
         self.send_packet(compose_avatar_effect_selected(effect_id))
