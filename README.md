@@ -74,10 +74,11 @@ Inside the folder you'll see example.py file. Check that.
 To log in, the bot needs your session cookies.
 1.  Login to Habbo on your browser.
 2.  Press `F12` (Dev Tools) -> **Network**.
-3.  Refresh the page. Filter for `clientnative`.
+3.  Click PLAY button. Filter for `clientnative`.
 4.  Click the request named `url`.
 5.  Copy `session.id` and `browser_token` from **Request Headers**.
 
+Or you can use some extensions like Cookie Editor to grab cookies.
 
 
 Open `example.py` and paste them:
