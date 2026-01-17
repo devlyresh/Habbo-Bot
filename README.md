@@ -156,10 +156,11 @@ By default, this is set to **US (.com)**. To change to Turkey, Brazil, or Spain:
 The Habbo protocol changes often. If you find a broken packet or add a new feature (like Pet Interaction, Trading, or Group logic), please open a **Pull Request**!
 
 **Helpful Tools for Contributors:**
+
 *   [G-Earth](https://github.com/sirjonasxx/G-Earth) (Packet Logger/Injector)
 *   [Sulek.dev API](https://sulek.dev/api) (Packet Structure Reference)
 
 ---
-
+Notice: These programs we have mentioned have nothing to do with us.
 ## 📜 License
 Distributed under the MIT License. See `LICENSE` for more information.
